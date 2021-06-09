@@ -9,6 +9,7 @@
 
 function palindrome(str) {
   // return str === str.split("").reverse().join("")
+  // return str.split("").every((ch, i) => ch === str[str.length - 1 - i])
   return str === str.split("").reduce((acc, el) => el + acc, "");
 }
 
