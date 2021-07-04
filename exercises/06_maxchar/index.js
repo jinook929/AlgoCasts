@@ -30,15 +30,15 @@ function maxChar(str) {
   // }
   // return maxCharResult
 
-  // let maxValue = 0
-  // let maxCharReturn = ""
-  // for(const key in chars) {
-  //   if(chars[key] > maxValue) {
-  //     maxValue = chars[key]
-  //     maxCharReturn = key
-  //   }
-  // }
-  // return maxCharReturn
+  let maxValue = 0
+  let maxCharReturn = ""
+  for(const key in chars) {
+    if(chars[key] > maxValue) {
+      maxValue = chars[key]
+      maxCharReturn = key
+    }
+  }
+  return maxCharReturn
 
   // return Object.keys(chars).reduce((acc, el) => chars[acc] > chars[el] ? acc : el)
 }

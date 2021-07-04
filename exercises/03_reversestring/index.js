@@ -32,7 +32,8 @@ function reverse(str) {
   // if(str === "") return ""
   // return reverse(str.substring(1)) + str[0]
 
-  return str === "" ? "" : reverse(str.substring(1)) + str[0]
+  // return str === "" ? "" : reverse(str.substring(1)) + str[0]
+  return str === "" ? "" : reverse(str)
 }
 
 module.exports = reverse;
