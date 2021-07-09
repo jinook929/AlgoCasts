@@ -63,6 +63,7 @@ function fib(n, result = [0, 1]) {
 //   }
 //   return result[n]
 // }
+
 // console.log("index #4", fib(0))
 // console.log("index #4", fib(1))
 // console.log("index #4", fib(2))
