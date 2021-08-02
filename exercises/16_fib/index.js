@@ -64,14 +64,16 @@ function fib(n, result = [0, 1]) {
 //   return result[n]
 // }
 
-// console.log("index #4", fib(0))
-// console.log("index #4", fib(1))
-// console.log("index #4", fib(2))
-// console.log("index #4", fib(3))
+// console.log("index #0", fib(0))
+// console.log("index #1", fib(1))
+// console.log("index #2", fib(2))
+// console.log("index #3", fib(3))
 // console.log("index #4", fib(4))
 // console.log("index #5", fib(5))
-// console.log("index #5", fib(6))
+// console.log("index #6", fib(6))
 // console.log("index #7", fib(7))
 console.log("index #15", fib(15))
-// console.log("index #45", fib(45))
+console.log("index #45", fib(45))
+console.log("index #100", fib(100))
+console.log("index #10000", fib(1000))
 module.exports = fib;

@@ -33,7 +33,7 @@ function reverse(str) {
   // return reverse(str.substring(1)) + str[0]
 
   // return str === "" ? "" : reverse(str.substring(1)) + str[0]
-  return str === "" ? "" : reverse(str)
+  return !str ? "" : reverse(str.substring(1)) + str[0]
 }
 
 module.exports = reverse;
